@@ -30,13 +30,13 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="131.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EiM-kk-gBN">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EiM-kk-gBN">
                                                     <rect key="frame" x="15" y="4" width="87" height="121"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4J-AF-EGO">
-                                                    <rect key="frame" x="116" y="4" width="244" height="21"/>
+                                                    <rect key="frame" x="116" y="9" width="244" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                     <nil key="textColor"/>
@@ -55,7 +55,6 @@
                                             <outlet property="posterView" destination="EiM-kk-gBN" id="e0s-wN-g0y"/>
                                             <outlet property="synopsisLabel" destination="cFD-Fg-TlW" id="wjh-NL-UKy"/>
                                             <outlet property="titleLabel" destination="q4J-AF-EGO" id="ztL-sK-e1m"/>
-                                            <outlet property="titleLable" destination="q4J-AF-EGO" id="Psj-M3-YNw"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
